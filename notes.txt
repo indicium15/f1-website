@@ -1,0 +1,21 @@
+1. wsgi.py, asgi.py - files related to deployment
+2. settings.py - configure the django project
+3. urls.py - controls which urls can be accessed
+
+"Apps" - split the website into smaller packages known as apps, combine together to make a website
+python manage.py startapp - start an app
+
+"Urls, Views"
+- inside the app folder there is a url.py folder that contains a list
+- urls.py
+    - from django.urls import path
+    - from . import views
+    - urlpatterns = []
+    - path function needs two arguments
+    - 'url' and point to the function that needs to be executed
+
+Templates
+    - predefined html files
+
+Static Content
+    - 
